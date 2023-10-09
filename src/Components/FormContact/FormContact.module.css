@@ -1,0 +1,118 @@
+.form_container {
+  max-width: 975px;
+  min-height: 600px;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: flex;
+}
+.form_sec {
+  width: 500px;
+}
+.form_sec_btns {
+  display: flex;
+  justify-content: space-between;
+  min-height: 70px;
+  margin-top: 20px;
+}
+
+.icons {
+  font-size: 25px;
+  margin-right: 10px;
+}
+.img_sec {
+  height: 500px;
+  width: 500px;
+}
+.img_sec img {
+  height: 100%;
+  width: 100%;
+}
+.form {
+  min-height: 400px;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.input {
+  height: 50px;
+  margin-top: 10px;
+  position: relative;
+}
+.input input {
+  height: 100%;
+  width: 98%;
+  font-size: 20px;
+  padding: 0 5px;
+  border: 1px solid;
+  border-radius: 6px;
+}
+.input label,
+.textArea label {
+  background: #fff;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  padding: 0 5px;
+}
+
+.textArea {
+  height: 200px;
+  position: relative;
+}
+.textArea textarea {
+  height: 100%;
+  width: 94%;
+  padding: 15px 3%;
+  resize: none;
+  font-size: 25px;
+}
+.submitBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card {
+  height: 200px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: solid 1px rgb(128, 128, 255);
+}
+.card p {
+  min-height: 40px;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .form_container {
+    max-width: 99vw;
+    min-height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .form_sec_btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 0px;
+  }
+  .form_container {
+    flex-direction: column-reverse;
+    width: 490px;
+  }
+  .form_sec {
+    width: 80vw;
+  }
+
+  .img_sec {
+    height: 300px;
+    width: 300px;
+  }
+}

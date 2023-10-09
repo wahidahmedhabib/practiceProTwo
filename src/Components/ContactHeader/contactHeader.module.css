@@ -1,0 +1,34 @@
+.mainSec {
+  max-width: 975px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.heading {
+  /* border: solid green; */
+  height: 72px;
+  width: 315px;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.contact_para {
+  /* border:  solid red ; */
+  /* width: 975px; */
+  font-size: 16px;
+}
+
+@media (max-width: 500px) {
+  .mainSec {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  h1 {
+    all: unset;
+  }
+  .heading {
+    height: 72px;
+    width: 315px;
+    font-size: 40px;
+  }
+}
